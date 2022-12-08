@@ -1,0 +1,186 @@
+body {
+    font-size:13px;
+    width:760px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#4c2d1d;
+    font-family:arial, sans-serif;
+    margin-top:25px;
+}
+
+h1 {
+   
+    height:52px;
+    margin:0px;
+    position:relative;
+    margin:0px;
+    padding-bottom: 4px;
+}
+
+h1 span {
+    background:url(../img/perisossheader.jpg) no-repeat;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    display:block;
+
+}
+
+h2 {
+	font-weight:normal;
+}
+
+h3{
+    font-weight:normal;
+    text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color:#4c2d1d;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+img {
+    border:0px;
+}
+
+ul.main-nav {
+    margin-top:0px;
+    padding:0px;
+    border-top:1px solid #ccc;
+    text-align:right;
+    font-weight:bold;
+}
+
+ul.main-nav a {
+    font-weight:normal;
+}
+
+ul.main-nav li {
+    display:inline;
+    padding:10px;
+}
+
+
+ul.sub-nav {
+    margin-top:0px;
+    padding:0px;
+    text-align:left;
+    font-weight:bold;
+}
+
+ul.sub-nav a {
+    font-weight:normal;
+    color:#4c2d1d;
+    text-decoration:underline;
+}
+
+ul.sub-nav li {
+    display:inline;
+    padding-right:10px;
+}
+
+
+
+div.category-items {width:300px;
+                    float:left;
+}
+
+
+p.intro    {text-align:justify;
+           margin-top:120px;
+           padding-left:30px;
+           width:225px;
+           float:right;
+           border :0px solid #ccc;
+}
+
+p.secd   {text-align:justify;
+           margin-top:10px;
+           padding-left:30px;
+           width:225px;
+           float:right;
+           border :0px solid #ccc;
+}
+
+span.one  {font-weight:bolder;
+
+}
+
+span.two  {font-style:italic;
+}
+
+
+div.info    {text-align:left;
+           margin-top:0px;
+           padding-left:0px;
+           width:325px;
+           float:left;
+           border :0px solid #ccc;
+}
+
+
+ul.thumbs {
+    margin:0px;
+    padding:0px;
+}
+
+ul.thumbs li{
+    display:inline;
+    padding:2px;
+    margin:2px;
+    cursor:pointer;
+}
+
+ul.thumbs li div.detail {
+    display:none;
+}
+
+ul.thumbs img.thumb {
+    width:60px;
+    height:60px;
+    border: 2px solid #fff;
+}
+
+ul.thumbs img.selected,
+ul.thumbs img.thumb:hover {
+    border-color:#ccc ! important;
+}
+
+div#item-detail-container {
+    width:450px;
+    padding-left:10px;
+    float:right;
+    padding-top:60px;
+    min-height:750px;
+    height:auto ! important;
+    height:750px;
+}
+
+img.product {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.foot{
+    clear:both;
+    border-top:1px solid #ccc;
+    margin-top:10px;
+    text-align:center;
+}
+
+img.content{
+float:right;
+margin-left:20px; 
+margin-top:20px;
+margin-bottom:20px;
+border:0px 
+}
+

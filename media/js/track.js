@@ -1,0 +1,1 @@
+jQuery.getScript("//www.google-analytics.com/ga.js",function(){ var t = _gat._getTracker('UA-7320137-2'); t._trackPageview(); $("a[href$='etsy.com']").click(function(e){ t._trackPageview('/outgoing/www.perispebbles.etsy.com'); }); });
